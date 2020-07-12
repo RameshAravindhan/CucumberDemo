@@ -1,0 +1,407 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-11T18:53:05.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1429600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runBeforeSmoke()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Try First Scenario",
+        "description": "",
+        "id": "first-fearture;try-first-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 309900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runAfterSmoke()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3396000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "First Method test",
+            "match": {
+              "location": "StepDefn.first_method_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3570200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Second method test with args \"Hi\" and \" everybody\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hi",
+                  "offset": 30
+                },
+                {
+                  "val": " everybody",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefn.second_method_test_with_args_something_and_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6701300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Method with args1 and args2",
+            "match": {
+              "location": "StepDefn.method_with_args1_and_args2(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First",
+                  "argument"
+                ]
+              },
+              {
+                "cells": [
+                  "Second",
+                  "argument"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10405200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Method for testing Maps",
+            "match": {
+              "location": "StepDefn.method_for_testing_maps(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Keys1",
+                  "Keys2"
+                ]
+              },
+              {
+                "cells": [
+                  "Value 1",
+                  "value a"
+                ]
+              },
+              {
+                "cells": [
+                  "Value 1",
+                  "Value b"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1598200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Complete the Scenario",
+            "match": {
+              "location": "StepDefn.complete_the_scenario()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-11T18:53:05.941Z",
+        "before": [
+          {
+            "result": {
+              "duration": 178000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runBeforeReg()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Try Second Scenario",
+        "description": "",
+        "id": "first-fearture;try-second-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 147000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runAfterReg()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1099300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Intro method for Examples testing",
+            "match": {
+              "location": "StepDefn.intro_method_for_examples_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1320500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Try passing args\"Value A\" and \"Value B\" using Examples keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value A",
+                  "offset": 17
+                },
+                {
+                  "val": "Value B",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefn.try_passing_argssomething_and_something_using_examples_keyword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1201300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Complete testing this scenario",
+            "match": {
+              "location": "StepDefn.complete_testing_this_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-11T18:53:05.960Z",
+        "before": [
+          {
+            "result": {
+              "duration": 246000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runBeforeReg()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Try Second Scenario",
+        "description": "",
+        "id": "first-fearture;try-second-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 93400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runAfterReg()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1198600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Intro method for Examples testing",
+            "match": {
+              "location": "StepDefn.intro_method_for_examples_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Try passing args\"value C\" and \"Value D\" using Examples keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value C",
+                  "offset": 17
+                },
+                {
+                  "val": "Value D",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefn.try_passing_argssomething_and_something_using_examples_keyword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 915900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Complete testing this scenario",
+            "match": {
+              "location": "StepDefn.complete_testing_this_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-11T18:53:05.969Z",
+        "before": [
+          {
+            "result": {
+              "duration": 121800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runBeforeReg()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Try Second Scenario",
+        "description": "",
+        "id": "first-fearture;try-second-scenario;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 127200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.runAfterReg()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 789400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Intro method for Examples testing",
+            "match": {
+              "location": "StepDefn.intro_method_for_examples_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1102900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Try passing args\"Value E\" and \"value F\" using Examples keyword",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Value E",
+                  "offset": 17
+                },
+                {
+                  "val": "value F",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefn.try_passing_argssomething_and_something_using_examples_keyword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1157500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Complete testing this scenario",
+            "match": {
+              "location": "StepDefn.complete_testing_this_scenario()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      }
+    ],
+    "name": "First Fearture",
+    "description": "",
+    "id": "first-fearture",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/test/features/FirstFeature.feature",
+    "tags": []
+  }
+]
