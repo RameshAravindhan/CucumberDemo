@@ -35,8 +35,8 @@ public class StepDefn {
 	@Then("^Method with args1 and args2$")
 	public void method_with_args1_and_args2(DataTable arguments) throws Throwable {
 		List<List<String>> list = arguments.asLists();
-		System.out.println(list.get(0).get(0));
-		System.out.println(list.get(0).get(1));
+		System.out.println(list.get(1).get(0));
+		System.out.println(list.get(1).get(1));
 	}
 
 	@Then("^Method for testing Maps$")

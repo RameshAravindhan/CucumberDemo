@@ -1,7 +1,7 @@
 Feature: First Fearture
 
-#Background: run the BackGround method 
-#Given Run the Background method
+Background: run the BackGround method 
+Given Run the Background method
 
 @smoketest
 Scenario: Try First Scenario
@@ -13,7 +13,7 @@ Then Method with args1 and args2
 Then Method for testing Maps
 |Keys1|Keys2|
 |Value 1|value a|
-|Value 1|Value b|
+|Value 2|Value b|
 And Complete the Scenario
 
 @regressiontest

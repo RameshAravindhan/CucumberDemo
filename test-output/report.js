@@ -4,6 +4,24 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
+formatter.background({
+  "name": "run the BackGround method",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Run the Background method",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefn.run_the_background_method()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Try First Scenario",
   "description": "",
@@ -13,9 +31,6 @@ formatter.scenario({
       "name": "@smoketest"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "First Method test",
@@ -78,7 +93,7 @@ formatter.step({
     },
     {
       "cells": [
-        "Value 1",
+        "Value 2",
         "Value b"
       ]
     }
@@ -157,6 +172,24 @@ formatter.examples({
     }
   ]
 });
+formatter.background({
+  "name": "run the BackGround method",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Run the Background method",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefn.run_the_background_method()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Try Second Scenario",
   "description": "",
@@ -166,9 +199,6 @@ formatter.scenario({
       "name": "@regressiontest"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "Intro method for Examples testing",
@@ -203,6 +233,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "run the BackGround method",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Run the Background method",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefn.run_the_background_method()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Try Second Scenario",
   "description": "",
@@ -212,9 +260,6 @@ formatter.scenario({
       "name": "@regressiontest"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "Intro method for Examples testing",
@@ -249,6 +294,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "run the BackGround method",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Run the Background method",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefn.run_the_background_method()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "Try Second Scenario",
   "description": "",
@@ -258,9 +321,6 @@ formatter.scenario({
       "name": "@regressiontest"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "Intro method for Examples testing",

@@ -3,11 +3,32 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-07-11T18:53:05.867Z",
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefn.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:03.900Z",
         "before": [
           {
             "result": {
-              "duration": 1429600,
+              "duration": 1800800,
               "status": "passed"
             },
             "match": {
@@ -22,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 309900,
+              "duration": 104600,
               "status": "passed"
             },
             "match": {
@@ -35,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3396000,
+              "duration": 4815200,
               "status": "passed"
             },
             "line": 8,
@@ -47,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 3570200,
+              "duration": 1476000,
               "status": "passed"
             },
             "line": 9,
@@ -69,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 6701300,
+              "duration": 4205100,
               "status": "passed"
             },
             "line": 10,
@@ -95,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 10405200,
+              "duration": 5862400,
               "status": "passed"
             },
             "line": 13,
@@ -118,7 +139,7 @@
               },
               {
                 "cells": [
-                  "Value 1",
+                  "Value 2",
                   "Value b"
                 ]
               }
@@ -127,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 1598200,
+              "duration": 741900,
               "status": "passed"
             },
             "line": 17,
@@ -145,11 +166,32 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-11T18:53:05.941Z",
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 808100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefn.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:03.954Z",
         "before": [
           {
             "result": {
-              "duration": 178000,
+              "duration": 167500,
               "status": "passed"
             },
             "match": {
@@ -164,7 +206,7 @@
         "after": [
           {
             "result": {
-              "duration": 147000,
+              "duration": 84800,
               "status": "passed"
             },
             "match": {
@@ -177,7 +219,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1099300,
+              "duration": 2254700,
               "status": "passed"
             },
             "line": 21,
@@ -189,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 1320500,
+              "duration": 825200,
               "status": "passed"
             },
             "line": 22,
@@ -211,7 +253,7 @@
           },
           {
             "result": {
-              "duration": 1201300,
+              "duration": 636400,
               "status": "passed"
             },
             "line": 23,
@@ -229,11 +271,32 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-11T18:53:05.960Z",
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1018800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefn.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:03.968Z",
         "before": [
           {
             "result": {
-              "duration": 246000,
+              "duration": 183300,
               "status": "passed"
             },
             "match": {
@@ -248,7 +311,7 @@
         "after": [
           {
             "result": {
-              "duration": 93400,
+              "duration": 75600,
               "status": "passed"
             },
             "match": {
@@ -261,7 +324,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1198600,
+              "duration": 2896100,
               "status": "passed"
             },
             "line": 21,
@@ -273,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 1006300,
+              "duration": 706500,
               "status": "passed"
             },
             "line": 22,
@@ -295,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 915900,
+              "duration": 603900,
               "status": "passed"
             },
             "line": 23,
@@ -313,11 +376,32 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-11T18:53:05.969Z",
+        "line": 3,
+        "name": "run the BackGround method",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 596900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Run the Background method",
+            "match": {
+              "location": "StepDefn.run_the_background_method()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-15T07:38:03.979Z",
         "before": [
           {
             "result": {
-              "duration": 121800,
+              "duration": 134300,
               "status": "passed"
             },
             "match": {
@@ -332,7 +416,7 @@
         "after": [
           {
             "result": {
-              "duration": 127200,
+              "duration": 100700,
               "status": "passed"
             },
             "match": {
@@ -345,7 +429,7 @@
         "steps": [
           {
             "result": {
-              "duration": 789400,
+              "duration": 2155400,
               "status": "passed"
             },
             "line": 21,
@@ -357,7 +441,7 @@
           },
           {
             "result": {
-              "duration": 1102900,
+              "duration": 1049100,
               "status": "passed"
             },
             "line": 22,
@@ -379,7 +463,7 @@
           },
           {
             "result": {
-              "duration": 1157500,
+              "duration": 706700,
               "status": "passed"
             },
             "line": 23,
